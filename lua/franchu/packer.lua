@@ -22,6 +22,14 @@ return require('packer').startup(function(use)
           })
       end
   }
+  use {
+      'franpfeiffer/workflow.nvim',
+      config = function()
+          require('workflow').setup({
+              -- optional configuration
+          })
+      end
+  }
 
   use({
 	  'rose-pine/neovim',

@@ -201,6 +201,12 @@ _G.packer_plugins = {
     path = "/home/fran/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["workflow.nvim"] = {
+    config = { "\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rworkflow\frequire\0" },
+    loaded = true,
+    path = "/home/fran/.local/share/nvim/site/pack/packer/start/workflow.nvim",
+    url = "https://github.com/franpfeiffer/workflow.nvim"
+  },
   ["worklog.nvim"] = {
     config = { "\27LJ\2\nt\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\rrepoPath!/mnt/d/code/plugin-test-uwu/\19commitInterval\3ˆ\14\nsetup\fworklog\frequire\0" },
     loaded = true,
@@ -214,14 +220,18 @@ time([[Defining packer_plugins]], false)
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
--- Config for: worklog.nvim
-time([[Config for worklog.nvim]], true)
-try_loadstring("\27LJ\2\nt\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\rrepoPath!/mnt/d/code/plugin-test-uwu/\19commitInterval\3ˆ\14\nsetup\fworklog\frequire\0", "config", "worklog.nvim")
-time([[Config for worklog.nvim]], false)
+-- Config for: workflow.nvim
+time([[Config for workflow.nvim]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rworkflow\frequire\0", "config", "workflow.nvim")
+time([[Config for workflow.nvim]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
+-- Config for: worklog.nvim
+time([[Config for worklog.nvim]], true)
+try_loadstring("\27LJ\2\nt\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\rrepoPath!/mnt/d/code/plugin-test-uwu/\19commitInterval\3ˆ\14\nsetup\fworklog\frequire\0", "config", "worklog.nvim")
+time([[Config for worklog.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
